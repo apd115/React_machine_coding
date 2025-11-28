@@ -1,0 +1,44 @@
+
+
+.main{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  
+  justify-content: center;
+  margin-top: 0;
+}
+.content{
+  display:flex;
+  justify-content: center;
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction:column;
+  
+  gap: 30px;
+  width: 80vh;
+  height: 80vh;
+  
+  border : solid 2px black;
+  background-color: beige;
+}
+
+.mainParent{
+  width: 100vh;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+}
+.tabButton{
+  flex:1;
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  flex:1;
+  padding: 10px;
+  background-color: pink;
+}
