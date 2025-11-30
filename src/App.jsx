@@ -2,7 +2,7 @@ import { useState } from 'react'
 import react from 'react'
 import './App.css'
 import {Tabs} from './components/tab.jsx'
-import {Test} from './components/test.jsx'
+
 
 function App() {
   
